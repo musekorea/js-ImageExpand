@@ -1,4 +1,4 @@
 # js-ImageExpand
 
 JavaScript studying in 2021.03<br>
-expand some images
+use Vanilla JS & CSS : expand some images
