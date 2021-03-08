@@ -1,0 +1,78 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  width: 90vw;
+}
+.panel {
+  background-size: cover 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 30px;
+  cursor: pointer;
+  flex: 1;
+  margin: 10px;
+  position: relative;
+  transition: flex 0.5s ease-in;
+}
+.panel:hover {
+  transform: scale(1.01);
+  opacity: 0.95;
+}
+.panel h3 {
+  font-size: 12px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0.3;
+  margin: 0;
+
+  color: white;
+  transition: all 0.5s ease-in;
+}
+.expand {
+  flex: 5;
+}
+.panel.expand h3 {
+  opacity: 1;
+  font-size: 24px;
+}
+.panel.expand {
+}
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+  /* .panel:nth-last-of-type(4),
+  .panel:nth-last-of-type(5) {
+    display: none;
+  } */
+}
+
+.panel1 {
+  background-image: url('img/img1.jpg');
+}
+.panel2 {
+  background-image: url('img/img2.jpg');
+}
+.panel3 {
+  background-image: url('img/img3.jpg');
+}
+.panel4 {
+  background-image: url('img/img4.jpg');
+}
+.panel5 {
+  background-image: url('img/img5.jpg');
+}
