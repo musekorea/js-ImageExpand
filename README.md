@@ -1,2 +1,3 @@
 # js-ImageExpand
-expand image studying
+
+studying javascript : expand image studying
